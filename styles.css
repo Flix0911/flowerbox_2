@@ -53,16 +53,17 @@ body {
 }
 
 /* 1st row - product forgive */
-.product-forgive {
+.product-row {
     display: flex;
 }
 
-.forgive-container {
+.product-container {
 
 }
 
 .forgive-photo img {
     width: 20%;
+    
 }
 
 .forgive-text {
@@ -86,14 +87,7 @@ body {
 }
 
 /* 1st row - product perfection */
-.pink-perfection {
-    display: flex;
 
-}
-
-.perfection-container {
-
-}
 
 .perfection.photo img {
     width: 20%;
@@ -116,14 +110,7 @@ body {
 }
 
 /* 1st row - product hopeful */
-.hopeful-sunshine {
-    display: flex;
 
-}
-
-.hopeful-container {
-
-}
 
 .hopeful.photo img {
     width: 20%;
@@ -146,14 +133,7 @@ body {
 }
 
 /* 2nd row - production motivational */
-.motivational-mug {
-    display: flex;
 
-}
-
-.motivational-container {
-
-}
 
 .motivational-photo img {
     width: 20%;
@@ -177,14 +157,7 @@ body {
 
 /* 2nd row - product breathtaking */
 
-.breathtaking-bouquet {
-    display: flex;
 
-}
-
-.breathtaking-container {
-
-}
 
 .breathtaking.photo img {
     width: 20%;
@@ -208,14 +181,7 @@ body {
 
 /* 2nd row - product loves me */
 
-.loves-me {
-    display: flex;
 
-}
-
-.loves-container {
-
-}
 
 .loves.photo img {
     width: 20%;
@@ -239,14 +205,7 @@ body {
 
 /* 3rd row - product hiya */
 
-.hiya-spring {
-    display: flex;
 
-}
-
-.hiya-container {
-
-}
 
 .hiya.photo img {
     width: 20%;
@@ -270,14 +229,7 @@ body {
 
 /* 3rd row - product compassion */
 
-.compassion-can {
-    display: flex;
 
-}
-
-.compassion-container {
-
-}
 
 .compassion.photo img {
     width: 20%;
@@ -301,14 +253,6 @@ body {
 
 /* 3rd row - product beauty */
 
-.basket-beauty {
-    display: flex;
-
-}
-
-.beauty-container {
-
-}
 
 .beauty.photo img {
 
