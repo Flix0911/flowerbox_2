@@ -58,11 +58,24 @@ body {
 }
 
 .product-container {
+    box-sizing: border-box;
+    margin-right: 24;
+    margin-bottom: 24px;
+    width: calc((100% - 30px) / 3);
+    display: flex;
+    
+}
+
+.product-photo {
+    width: 100%;
+    line-height: 0px;
+    display: flex;
+    
 
 }
 
 .product-photo img {
-    width: 20%;
+    width: 100%;
     
 }
 
