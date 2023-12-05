@@ -1,7 +1,12 @@
 body {
     font-family: "DM Sans", sans-serif;
     background-color: whitesmoke;
-    margin: 0;
+    margin: 5;
+    
+}
+
+div {
+    margin: 5px;
 }
 
 /* navigation */
@@ -13,56 +18,94 @@ body {
 }
 
 .navigation {
-    background-color: #92b2ba;
     display: flex;
+    background-color: #92b2ba;
     width: 100%;
-    justify-content: space-around;
-    padding: 10px;
-    color: white; 
+    padding: 20px 40px;
+    color: white;
+    font-weight: 500;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "DM Sans";
+    margin: 20px 0px;
 }
 
 /* Main photo */
 .main-photo {
+    display: flex;
     width: 100%;
+    object-fit: fill;
+    margin: 10;
+    position: relative;
+    margin-bottom: 40px;
 
 }
 
 .main-photo img {
     display: flex;
-    width: 100%;
     object-fit: fill;
+    width: 100%;
 }
 
 .flower-text {
     display: flex;
-    justify-content: right;
+    position: absolute;
     flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100%;
 
 }
 
 .flowerbox {
-    font-size: 2em;
-    display: flex;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: "DM Sans";
+    margin-right: 36px;
+    letter-spacing: 4px;
     color: #92b2ba;
-    width: 100%;
+    text-shadow: 2px 2px var(--white);
 
 }
 
 .catch-phrase {
-    display: flex;
+    margin-right: 36px;
+    padding: 6px 12px;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: pink;
 }
 
-/* 1st row - product forgive */
+/* All products */
 .product-row {
     display: flex;
+    display: hide;
+    flex-direction: row;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 
 .product-container {
+    display: flex;
     box-sizing: border-box;
     margin-right: 24;
     margin-bottom: 24px;
     width: calc((100% - 30px) / 3);
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+   
     
 }
 
@@ -70,34 +113,51 @@ body {
     width: 100%;
     line-height: 0px;
     display: flex;
-    
+    flex-wrap: wrap;
+    flex-direction: row;
+
 
 }
 
 .product-photo img {
     width: 100%;
+    margin: 10px;
     
 }
 
 .product-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .product-name {
-
+    display: flex;
 }
 
 
 
 .product-cost {
-
+    display: flex;
+    background-color: #f0a8bb;
+    color:white;
 }
 
 .product-describtor {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    margin: 0px;
+    height: auto;
 
 }
 
 .describtor {
+    display: flex;
+    background-color: #777777;
+    color: #92b2ba;
+
 
 }
 
@@ -107,62 +167,76 @@ body {
 /* Footer */
 
 .footer {
-
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .logo-container {
-
+    display: flex;
+    padding: 34px;
+    text-align: center;
+    font-family: "DM Sans";
+    font-weight: 900;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo-container img {
+    object-fit: contain;
+    width: 100px;
+}
 
+.footer {
+    background-color: #eeeeee;
 }
 
 .footer-text {
-
+    font-weight: 100;
+    font-size: 13px;
+    color: #f9dde0;
 }
 
 .social-links {
-
+    color: #92b2ba;
 }
 
-.logo-twitter {
-
-}
-
-.logo-facebook {
-
-}
-
-.logo-instagram {
-
-}
 
 .column-one {
-
+    padding: 0px 64px;
+    font-family: "Open Sans";
+    border-left: 1px solid;
+    margin: 32px 0px;
 }
 
 .column-one-customer {
-
+    color: #92b2ba;
+    font-weight: 600;
+    text-align: left;
 }
 
 .column-one-text {
-
+    text-align: left;
 }
 
 .column-two {
-
+    padding: 0px 64px;
+    font-family: "Open Sans";
+    border-left: 1px solid;
+    margin: 32px 0px;
 }
 
 .column-two-flowerbox {
-
+    color: #92b2ba;
+    font-weight: 600;
+    text-align: left;
 }
 
-.column-two-describtor {
 
-}
 
 .column-two-text {
-
+    text-align: left;
 }
 
