@@ -79,19 +79,21 @@ body {
     
 }
 
-.forgive-text {
+.product-text {
 
 }
 
-.forgive-name {
+.product-name {
 
 }
 
-.forgive-cost {
+
+
+.product-cost {
 
 }
 
-.forgive-describtor {
+.product-describtor {
 
 }
 
@@ -99,193 +101,8 @@ body {
 
 }
 
-/* 1st row - product perfection */
 
 
-.perfection.photo img {
-    width: 20%;
-}
-
-.perfection-text {
-
-}
-
-.perfection-name {
-
-}
-
-.perfection-cost {
-
-}
-
-.perfection-describtor {
-
-}
-
-/* 1st row - product hopeful */
-
-
-.hopeful.photo img {
-    width: 20%;
-}
-
-.hopeful-text {
-
-}
-
-.hopeful-name {
-
-}
-
-.hopeful-cost {
-
-}
-
-.hopeful-describtor {
-
-}
-
-/* 2nd row - production motivational */
-
-
-.motivational-photo img {
-    width: 20%;
-}
-
-.motivational-text {
-
-}
-
-.motivational-name {
-
-}
-
-.motivational-cost {
-
-}
-
-.motivational-describtor {
-
-}
-
-/* 2nd row - product breathtaking */
-
-
-
-.breathtaking.photo img {
-    width: 20%;
-}
-
-.breathtaking-text {
-
-}
-
-.breathtaking-name {
-
-}
-
-.breathtaking-cost {
-
-}
-
-.breathtaking-describtor {
-
-}
-
-/* 2nd row - product loves me */
-
-
-
-.loves.photo img {
-    width: 20%;
-}
-
-.loves-text {
-
-}
-
-.loves-name {
-
-}
-
-.loves-cost {
-
-}
-
-.loves-describtor {
-
-}
-
-/* 3rd row - product hiya */
-
-
-
-.hiya.photo img {
-    width: 20%;
-}
-
-.hiya-text {
-
-}
-
-.hiya-name {
-
-}
-
-.hiya-cost {
-
-}
-
-.hiya-describtor {
-
-}
-
-/* 3rd row - product compassion */
-
-
-
-.compassion.photo img {
-    width: 20%;
-}
-
-.compassion-text {
-
-}
-
-.compassion-name {
-
-}
-
-.compassion-cost {
-
-}
-
-.compassion-describtor {
-
-}
-
-/* 3rd row - product beauty */
-
-
-.beauty.photo img {
-
-}
-
-.beauty-text {
-
-}
-
-.beauty-name {
-
-}
-
-.beauty-cost {
-
-}
-
-.beauty-describtor {
-
-}
 
 /* Footer */
 
