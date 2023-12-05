@@ -88,7 +88,6 @@ div {
     flex-direction: row;
     margin: 0;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: space-around;
     width: 100%;
     box-sizing: border-box;
@@ -122,26 +121,35 @@ div {
 .product-photo img {
     width: 100%;
     margin: 10px;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .product-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .product-name {
     display: flex;
+    font-family: "DM Sans" sans-serif;
+    color: #92b2ba;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
 
 .product-cost {
     display: flex;
-    background-color: #f0a8bb;
+    background-color: pink;
     color:white;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .product-describtor {
@@ -150,14 +158,16 @@ div {
     background-color: white;
     margin: 0px;
     height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .describtor {
     display: flex;
-    background-color: #777777;
-    color: #92b2ba;
-
+    background-color: gray;
+    color: #black;
+    padding: .5rem;
 
 }
 
