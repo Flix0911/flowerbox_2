@@ -1,12 +1,17 @@
+* {
+    outline: 2px dotted green;
+}
+
 body {
     font-family: "DM Sans", sans-serif;
+    font-family: "Open Sans" sans-serif;
     background-color: whitesmoke;
-    margin: 5;
+    margin: 0;
     
 }
 
 div {
-    margin: 5px;
+    margin: 0px;
 }
 
 /* navigation */
@@ -84,7 +89,6 @@ div {
 /* All products */
 .product-row {
     display: flex;
-    display: hide;
     flex-direction: row;
     margin: 0;
     flex-wrap: wrap;
@@ -97,13 +101,11 @@ div {
 .product-container {
     display: flex;
     box-sizing: border-box;
-    margin-right: 24;
+    margin-right: 24px;
     margin-bottom: 24px;
     width: calc((100% - 30px) / 3);
     flex-direction: row;
     flex-wrap: wrap;
-
-
    
     
 }
@@ -112,8 +114,7 @@ div {
     width: 100%;
     line-height: 0px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    
 
 
 }
@@ -121,25 +122,19 @@ div {
 .product-photo img {
     width: 100%;
     margin: 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    
 }
 
 .product-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
 
 }
 
 .product-name {
-    display: flex;
-    font-family: "DM Sans" sans-serif;
     color: #92b2ba;
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-family: "DM Sans" sans-serif;
 }
 
 
@@ -148,8 +143,7 @@ div {
     display: flex;
     background-color: pink;
     color:white;
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-family: "DM Sans" sans-serif;
 }
 
 .product-describtor {
@@ -158,16 +152,14 @@ div {
     background-color: white;
     margin: 0px;
     height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
+    
 
 }
 
 .describtor {
     display: flex;
     background-color: gray;
-    color: #black;
-    padding: .5rem;
+    
 
 }
 
